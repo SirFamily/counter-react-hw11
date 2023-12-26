@@ -4,78 +4,79 @@
 }
 
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: myFirstFont;
-    text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: myFirstFont;
+  text-align: center;
 }
 
-body{
+body {
   background-image: url('https://mobimg.b-cdn.net/v3/fetch/97/97d227cf306eaabc4b99adb954ee8ed9.jpeg');
   background-repeat: repeat;
-	background-size: cover;
-	background-position: center;
-	height: 100vh;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 
 }
-.suminfo{
-    text-align: center;
-    margin: 20px 0;
+
+.suminfo {
+  text-align: center;
+  margin: 20px 0;
 }
 
 .counter {
-    display: flex;
-    align-items: baseline;
-    height: 80px;
-    width: 360px;
-    margin: 1rem auto;
-    text-align: center;
-    padding: 10px;
+  display: flex;
+  align-items: baseline;
+  height: 80px;
+  width: 360px;
+  margin: 1rem auto;
+  text-align: center;
+  padding: 10px;
 
-    border: 2px solid #979797;
-    color: #000000;
-    background: #b1b1b1;
-    box-shadow: -4px 4px 0px 0px #000;
+  border: 2px solid #979797;
+  color: #000000;
+  background: #b1b1b1;
+  box-shadow: -4px 4px 0px 0px #000;
 
-    transition: 0.7s ease;
-  }
+  transition: 0.7s ease;
+}
 
-  .counter h3{
-    margin: 0 10px;
-    padding: 10px;
-    color: #000000;
-    border: 2px solid #000000;
-    background: #bbbbbb;
-    box-shadow: -4px 4px 0px 0px #000;
-  }
+.counter h3 {
+  margin: 0 10px;
+  padding: 10px;
+  color: #000000;
+  border: 2px solid #000000;
+  background: #bbbbbb;
+  box-shadow: -4px 4px 0px 0px #000;
+}
 
-  .counter > * {
-    height: 100%;
-    flex: 1;
-    font-size: 32;
-  }
+.counter>* {
+  height: 100%;
+  flex: 1;
+  font-size: 32;
+}
 
-  button {
-    border: 2px solid #ffffff;
-    color: #ffffff;
-    background: #000000;
-    box-shadow: -4px 4px 0px 0px #000;
-    text-decoration: none;
-    padding: 10px 20px;
-    margin-bottom: 10px;
-    font-weight: bold;
+button {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  background: #000000;
+  box-shadow: -4px 4px 0px 0px #000;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
 
 }
 
-.text{
+.text {
   color: #ffffff;
 }
 
-.container{
+.container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-margin-bottom: 70px;
+  margin-bottom: 70px;
 }
