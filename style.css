@@ -67,7 +67,7 @@ button {
   padding: 10px 20px;
   margin-bottom: 10px;
   font-weight: bold;
-
+  transition: ease 0.5;
 }
 
 .text {
@@ -80,3 +80,14 @@ button {
   align-items: center;
   margin-bottom: 70px;
 }
+
+.counter:hover {
+    transform: scale(1.03);
+}
+
+button:active {
+  transform: scale(1.01);
+  background-color: #d1d1d1;
+  color: #000;
+}
+
