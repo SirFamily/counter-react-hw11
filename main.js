@@ -70,6 +70,16 @@ function Time() {
   )
 }
 
+  var audio = document.getElementById("myAudio");
+
+  function toggleMute() {
+    if (audio.muted) {
+      audio.muted = false;
+    } else {
+      audio.muted = true;
+    }
+  }
+
 function App() {
 
   const [counters, setCounters] = React.useState([{ id: 1, number: 0 }])

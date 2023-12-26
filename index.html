@@ -15,10 +15,11 @@
 </head>
 
 <body>
-    <embed src="./slow-2021-08-17_-_8_Bit_Nostalgia_-_www.FesliyanStudios.com (mp3cut.net) (3).mp3" loop="true" autostart="true" width="0"
-    height="0">
+    <audio id="myAudio" autoplay>
+        <source src="./slow-2021-08-17_-_8_Bit_Nostalgia_-_www.FesliyanStudios.com (mp3cut.net) (3).mp3" type="audio/mp3">
+      </audio>
     <div id="root"></div>
-
+    <button onclick="toggleMute()">Mute</button>
     <script type="text/babel" src="./main.js"></script>
 </body>
 
