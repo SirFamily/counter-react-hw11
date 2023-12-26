@@ -118,9 +118,6 @@ function App() {
         <div className="text">WORLD <br />1-1</div>
         <div className="text">TIME <br /><Time /></div>
       </div>
-
-
-
       {counters.map(el => {
         return <Counter key={el.id} item={el} hdlUpdate={hdlUpdate} hdlClear={hdlClear} hdlDelCounter={hdlDelCounter} />
       })}
