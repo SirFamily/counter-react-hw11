@@ -82,16 +82,13 @@ button {
 }
 
 .counter:hover {
-    transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 button:active {
   transform: scale(1.01);
   background-color: #d1d1d1;
   color: #000;
-}
-.m{
-  
 }
 
 @media (max-width: 768px) {
