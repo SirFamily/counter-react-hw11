@@ -114,9 +114,9 @@ function App() {
   <>
     <div className="container">
       <div className="text">Thiraphat <br /><button className='text-center' onClick={() => { hdlAddCounter(); jump.play(); }}>Add Counter</button></div>
-      <div className="text"><SumInfo color="black" size="No" counters={counters}/> </div>
+      <div className="text"><SumInfo color="white" size="No" counters={counters}/> </div>
       <div className="text">WORLD <br />1-1</div>
-      <div>TIME <br /><Time /></div>
+      <div className="text">TIME <br /><Time /></div>
     </div>
     
     

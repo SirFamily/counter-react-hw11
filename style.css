@@ -11,6 +11,15 @@
     font-family: myFirstFont;
     text-align: center;
 }
+
+body{
+  background-image: url('https://mobimg.b-cdn.net/v3/fetch/97/97d227cf306eaabc4b99adb954ee8ed9.jpeg');
+  background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 110vh;
+
+}
 .suminfo{
     text-align: center;
     margin: 20px 0;
@@ -58,6 +67,10 @@
     margin-bottom: 10px;
     font-weight: bold;
 
+}
+
+.text{
+  color: #ffffff;
 }
 
 .container{
