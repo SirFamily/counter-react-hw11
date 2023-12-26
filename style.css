@@ -14,10 +14,10 @@
 
 body{
   background-image: url('https://mobimg.b-cdn.net/v3/fetch/97/97d227cf306eaabc4b99adb954ee8ed9.jpeg');
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 	background-size: cover;
 	background-position: center;
-	height: 110vh;
+	height: 100vh;
 
 }
 .suminfo{
